@@ -15,20 +15,20 @@ class html_element {
      * @param <type> $attributeArray
      * @param <type> $unaryTagArray
      */
-    public function __construct($type, $attributeArray = array()) {
+    public function __construct($type, $object, $attributeArray = array()) {
         $this->type = strtolower($type);
 
         foreach($attributeArray as $attribute => $value) {
             $this->setAttribute($attribute, $value);
         }
     
-        // if (is_object($object)) {
-        //   if(@get_class($object) == __class__) {
-        //     $this->innerHtml .= $object->build();
-        //   }
-        // } else if (is_string($object)) {
-        //   $this->innerHtml = $object;
-        // }
+        if (is_object($object)) {
+          if(@get_class($object) == __class__) {
+            $this->innerHtml .= $object->build();
+          }
+        } else if (is_string($object)) {
+          $this->innerHtml = $object;
+        }
 
         return $this;
     }
