@@ -1,31 +1,43 @@
-<?php include("header.php") ?>
 <?php 
-switch($_GET['id']) { 
+  // Let's include any helper classes for us to use in our markup.
+  include 'application/includes/helper_includes.php'; 
+  session_start();
+ 
+  // If we don't pass in an id argument then let's assume
+  // were one the home page.
+  if (empty($_GET['id'])) {
+    $_GET['id'] = 'home';
+  }
+  // Set the session pagetype variable to be the id passed in
+  $_SESSION['pageType'] = $_GET['id'];
 
-default: 
-include ('home.php'); 
-break;
+  // Start of Page Markup Generation
+  include("application/views/header.php");
+    // Pull the id we pass to know which page to load.
+    switch($_GET['id']) { 
+      default: 
+      include ('application/views/home.php');
+      break;
 
-case "roster": 
-include ('roster.php'); 
-break;
+      case "roster": 
+      include ('application/views/roster.php');
+      break;
 
-case "rank": 
-include ('rank.php'); 
-break;
+      case "rank": 
+      include ('application/views/rank.php'); 
+      break;
 
-case "servers": 
-include ('servers.php'); 
-break;
+      case "servers": 
+      include ('application/views/servers.php'); 
+      break;
 
-case "laws": 
-include ('laws.php'); 
-break;
+      case "laws": 
+      include ('application/views/laws.php'); 
+      break;
 
-case "about": 
-include ('about.php'); 
-break;
-
-}
+      case "about": 
+      include ('application/views/about.php'); 
+      break;
+    }
+  include("application/views/footer.php");
 ?>
-<?php include("footer.php") ?>
