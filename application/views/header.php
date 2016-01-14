@@ -2,7 +2,7 @@
 
 <?php
   // Create the HTML header tag with the class of the session page type variable.
-  $html_opening_tag = new html_element('html', null, array(
+  $html_opening_tag = new html_element('html', array(
     'xmlns' => 'http://www.w3.org/1999/xhtml',
     'class' => $_SESSION['pageType'],
   ));
