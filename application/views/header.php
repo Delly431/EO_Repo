@@ -10,7 +10,7 @@
 ?>
 <head>
   <link rel="stylesheet" href="build/css/main.css">
-  <link rel="stylesheet" href="build/css/servers.css">
+  <link rel="stylesheet" href="build/css/server.css">
   <title>ExiledOrder.com</title>
   <link rel="shortcut icon" href="http://www.exiledorder.com/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
