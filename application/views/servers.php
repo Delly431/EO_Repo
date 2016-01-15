@@ -1,19 +1,49 @@
-<div style="height: 120px;"></div>
-<div id="server_img">
-	<div id="server_left">
-    <h1>TeamSpeak 3 Server</h1><br />
-    <div id="ts3viewer_1074716" style="width:300px;; background-color:#352e16; padding : 8px; border: 2px dashed #dabf61;"> </div>
-    <script type="text/javascript" src="https://static.tsviewer.com/short_expire/js/ts3viewer_loader.js"></script>
-    <script type="text/javascript">
-    <!--
-    var ts3v_url_1 = "https://www.tsviewer.com/ts3viewer.php?ID=1074716&text=f8c200&text_size=12&text_family=1&js=1&text_s_weight=bold&text_s_style=normal&text_s_variant=normal&text_s_decoration=none&text_s_color_h=525284&text_s_weight_h=bold&text_s_style_h=normal&text_s_variant_h=normal&text_s_decoration_h=underline&text_i_weight=normal&text_i_style=normal&text_i_variant=normal&text_i_decoration=none&text_i_color_h=525284&text_i_weight_h=normal&text_i_style_h=normal&text_i_variant_h=normal&text_i_decoration_h=underline&text_c_weight=normal&text_c_style=normal&text_c_variant=normal&text_c_decoration=none&text_c_color_h=525284&text_c_weight_h=normal&text_c_style_h=normal&text_c_variant_h=normal&text_c_decoration_h=underline&text_u_weight=bold&text_u_style=normal&text_u_variant=normal&text_u_decoration=none&text_u_color_h=525284&text_u_weight_h=bold&text_u_style_h=normal&text_u_variant_h=normal&text_u_decoration_h=none";
-    ts3v_display.init(ts3v_url_1, 1074716, 100);
-    -->
-    </script>
+<center>
+<div id="server_wrap">
+	<div class="server_left">
+        <center><h1 class="title">Exiled Order Server Rules</h1></center>
+        <h2 class="title">TeamSpeak 3 Rules</h2>
+        <ul class="server_rules">
+        <li>Respect the admins and members!</li>
+        <li>Do not copy names. For example: Black Wolf 1, Blackwolf 2, etc.</li>
+        <li>Do not spam. (Channelhopping is also spam!)</li>
+        <li>Voice convertors are not allowed.</li>
+        <li>Only filetransfer allowed in the [Filetransfer] Channel!</li>
+        <li>The channel admin has the responsibility for the channel/server.</li>
+        <li>This page does not cover all the rules; only the basic ones.</li>
+        <li>If an admin finds an unfitting behavior he will moderate it accordingly.</li>
+        <li>No racism, racism will provide you an instant perm ban.</li>
+        <li>No verbal abuse.</li>
+        </ul>
+        <h2 class="title">Game Server Rules</h2>
+        <ul class="server_rules">
+        <li>Respect the admins and members!</li>
+        <li>Do not copy names. For example: Black Wolf 1, Blackwolf 2, etc.</li>
+        <li>Do not spam. (Channelhopping is also spam!)</li>
+        <li>Voice convertors are not allowed.</li>
+        <li>Only filetransfer allowed in the [Filetransfer] Channel!</li>
+        <li>The channel admin has the responsibility for the channel/server.</li>
+        <li>This page does not cover all the rules; only the basic ones.</li>
+        <li>If an admin finds an unfitting behavior he will moderate it accordingly.</li>
+        <li>No racism, racism will provide you an instant perm ban.</li>
+        <li>No verbal abuse.</li>
+        </ul>
+        <center><a href="#" class="report_player">Report A Player</a> / <a href="#" class="ban_appeal">Ban Appeal</a> / <a href="#" class="ban_logs">Ban Logs</a></center>
     </div>
-    <div id="server_right">
-    <h1>Game Servers</h1><br />
-    <img src="http://squad.rocks/server/104.243.44.138/7797.png" alt="squad"/>
+    <div class="server_right">
+    <center>
+    <h1 class="title">Teamspeak 3 Status</h1>
+    <img src="http://cache.www.gametracker.com/server_info/74.91.116.20:9987/b_350_20_514611_0F0D03_FFCF02_111111.png" border="0" width="400" height="20" alt=""/>
+    <form name="tsform">
+    Choose A Nickname:<input class="ts_connect" type="text" name="NICKNAME"><input class="ts_connect" type="button" value="Connect" 
+    onClick="javascript:location.href='ts3server://74.91.116.20/?port=9987&nickname=' + tsform.NICKNAME.value">
+    </form>
+    <h1 class="title">SQUAD Server Status</h1>
+    <img src="http://squad.rocks/server/66.150.121.174/27015.png" /><br /><br />
+    <img src="http://squad.rocks/server/74.91.116.224/27015.png" /><br /><br />
+    <img src="http://squad.rocks/server/74.91.116.213/27015.png" /><br />
+    <h1 class="title">CS:GO Server Status</h1>
+    </center>
     </div>
-
 </div>
+</center>

@@ -1,3 +1,54 @@
 * {
   font-size: ;
 }
+
+#server_wrap {
+	width : 1200px;
+	text-align : left;
+}
+.server_left {
+	width : 400px;
+	color : #ffffff;
+	float : left;
+	padding : 5px;
+	background-image:url(../../assets/images/rules_bg.jpg);
+}
+.rules_content {
+	
+}
+
+.server_right {
+	width : 800px;
+	float : left;
+	padding : 5px;
+	color : #ffffff;
+	background-image:url(../../assets/images/server_bg.jpg);
+}
+
+h1.title {
+	color : #ffcf02;
+}
+h2.title {
+	color : #c6de3f;
+	font-size : 15px;
+}
+ul.server_rules {
+	font-size : 11px;
+}
+
+input.ts_connect {
+	background-color : #4c441e;
+	border : 1px solid #5b4d0b;
+}
+a:link.report_player {
+	font-size : 20px;
+	color : #f80000;
+}
+a:link.ban_appeal {
+	font-size : 20px;
+	color : #c600ea;
+}
+a:link.ban_logs {
+	font-size : 20px;
+	color : #ff5400;
+}
