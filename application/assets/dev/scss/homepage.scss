@@ -1,0 +1,157 @@
+.home {
+  main {
+    width: 100%;
+    height: calc(100% - 110px);
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+  }
+
+  .register-button {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background: transparent;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #bd9400;
+    }
+  }
+
+  .content {
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 60px;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 18px;
+      color: $eo-white;
+    }
+
+    .welcome {
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      align-self: center;
+      display: inline-block;
+      
+      .landing-logo {
+        width: 90px;
+        height: 95px;
+        background-position: 0px -305px;
+        vertical-align: top;
+      }
+
+      .landing-text {
+        padding-top: 10px;
+        padding-left: 20px;
+        vertical-align: top;
+      }
+
+      .welcome-message {
+        margin: 0 0 15px 0;
+        font-size: 45px;
+        
+        span {
+          display: block;
+          &:first-child {
+            font-size: 28px;
+            text-align: center;
+
+            @media screen and (max-width: $mobile-breakpoint) { 
+              font-size: 20px;
+            }
+          }
+
+          &:last-child {
+            @media screen and (max-width: $mobile-breakpoint) { 
+              font-size: 30px;
+            }
+          }
+        }
+      }
+
+      a {
+        float: right;
+      }
+    }
+  }
+
+  .video-cover {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: -9999;
+
+    .video-cover-inner {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-filter: blur(4px);
+      -moz-filter: blur(4px);
+      -o-filter: blur(4px);
+      -ms-filter: blur(4px);
+      filter: blur(4px); 
+
+      .top {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: inherit;
+        height: 100%;
+        width: 100%;
+      }
+
+      .bg-image {
+        background: url(http://www.exiledorder.com/temp/images/squad_home_background.jpg) no-repeat center center;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -101;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover; 
+      }
+
+      #ytplayer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 3600px;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover; 
+      }
+    }
+  }
+}
