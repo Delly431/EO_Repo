@@ -42,14 +42,8 @@
         <div class="mobile-menu-opener"></div>
       </div>
     </div>
-    <ul class="mobile-nav" data-role="mobile_menu">
-      <li><a href="index.php?id=home">HOMEPAGE</a></li>
-      <li><a href="index.php?id=roster">ROSTER</a></li>
+    <ul class="desktop-nav">
+      <li class="logo icn"></li>
       <li><a href="/forums">FORUMS</a></li>
-      <li><a href="index.php?id=rank">RANKS</a></li>
-      <li><a href="index.php?id=laws">LAWS</a></li>
-      <li><a href="index.php?id=servers">SERVERS</a></li>
-      <li><a href="http://exiledorder.com/forums/index.php?/topic/15-application-format/">JOIN&nbsp;US</a></li>
-      <li><a href="index.php?id=about">ABOUT [EO]</a></li>
     </ul>
   </nav>
