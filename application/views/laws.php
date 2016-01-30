@@ -1,4 +1,4 @@
-<div style="height: 120px;"></div>
+<center>
 <div id="wrap_law">
 <center><img src="assets/images/law.png" /></center>
 <h1>Cheating</h1>
@@ -123,3 +123,4 @@ All Game Section, Operations and Legal department members are required to follow
   <b><i>Please note: All warning points will be revoked after 90 days of your last offense committed.</i></b>
 <br /><br />
 </div>
+</center>

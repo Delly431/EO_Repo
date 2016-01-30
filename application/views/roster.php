@@ -1,4 +1,4 @@
-<div style="height: 100px;"></div>
+<center>
 <img src="assets/images/roster_banner.png" alt="roster"/>
 <div id="roster_disp">
 	<center><h1>LEADERS & FOUNDERS</h1></center>

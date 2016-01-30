@@ -798,7 +798,7 @@ Mobile Nav
 
 footer {
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   background: #221D06; }
   footer .footer-inner {
@@ -806,3 +806,5 @@ footer {
     margin: 0 auto;
     padding: 20px 30px;
     color: #ffffff; }
+	
+

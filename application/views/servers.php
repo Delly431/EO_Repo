@@ -47,3 +47,4 @@
     </div>
 </div>
 </center>
+<div style="clear: both;"></div>

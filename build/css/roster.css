@@ -2,53 +2,107 @@
   font-size: ;
 }
 
-#server_wrap {
-	width : 1200px;
+a.roster:link {color:#ffe894; text-decoration: none;}
+a.roster:visited {color:#ffe894;text-decoration: none;}
+a.roster:hover {color:#ffcc00;text-decoration: none;}
+#roster_img {
+	background-image : url('images/roster_bg.png');
+	height : 1113px;
+	width : 100%;
+	font-color : #ffffff;
+}
+#roster_disp {
 	text-align : left;
+	width : 1244px;
 }
-.server_left {
-	width : 400px;
-	color : #ffffff;
-	float : left;
-	padding : 5px;
-	background-image:url(../../assets/images/rules_bg.jpg);
+.roster_wrap {
+	background-image : url('images/nav_bg.png');
+	height: 37px;
+	width : 1244px;
+	border: 1px solid #b49c00;
 }
-.rules_content {
+.roster_name {
+	height: 37px;
+	float: left;
+	text-align : left;
+	width: 300px;
+	color : #c0a131;
 	
 }
-
-.server_right {
-	width : 800px;
-	float : left;
-	padding : 5px;
-	color : #ffffff;
-	background-image:url(../../assets/images/server_bg.jpg);
+.roster_icon {
+	height: 37px;
+	float: left;
+	width: 35px;
+	color : #c0a131;
+	
 }
-
-h1.title {
-	color : #ffcf02;
+.roster_rank {
+	height: 37px;
+	float: left;
+	width: 200px;
+	color : #c0a131;
+	text-align: center;
+	
 }
-h2.title {
-	color : #c6de3f;
-	font-size : 15px;
+.roster_game {
+	height: 37px;
+	float: left;
+	width: 200px;
+	color : #c0a131;
+	text-align: center;
+	
 }
-ul.server_rules {
-	font-size : 11px;
+.roster_flag {
+	height: 37px;
+	float: left;
+	width: 50px;
+	color : #c0a131;
+	text-align: center;
+	
 }
-
-input.ts_connect {
-	background-color : #4c441e;
-	border : 1px solid #5b4d0b;
+.roster_date {
+	height: 37px;
+	float: left;
+	width: 100px;
+	color : #c0a131;
+	text-align: center;
+	
 }
-a:link.report_player {
-	font-size : 20px;
-	color : #f80000;
+.roster_status {
+	height: 37px;
+	float: left;
+	width: 100px;
+	color : #c0a131;
+	text-align: center;
+	
 }
-a:link.ban_appeal {
-	font-size : 20px;
-	color : #c600ea;
+.active {
+	color : #00f80c;
+	font-weight : bold;
 }
-a:link.ban_logs {
-	font-size : 20px;
-	color : #ff5400;
+.inactive {
+	color : #ec006f;
+	font-weight : bold;
+}
+.mloa {
+	color : #8b00ec;
+	font-weight : bold	
+}
+.roster_text {
+	padding : 8px;
+}
+.roster_text_flag {
+	padding : 10px;
+}
+#rank_img {
+	background-color: #f8c200;
+	height : 1113px;
+	width : 100%;
+	font-color : #ffffff;
+}
+#rank_text {
+	position : relative;
+	text-align : left;
+	top : 100px;
+	width: 100%;
 }
