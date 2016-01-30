@@ -1,4 +1,3 @@
-<div style="height: 100px;"></div>
 <center>
 <img src="assets/images/rank_banner.png" /><br/>
 <a onClick="return toggleMe('qa1')" href="javascript:void(0)"><img src="assets/images/lead_bar.jpg" /></a>
@@ -9,8 +8,8 @@
 </center>
 <br/><br/>
 <center>
-<div id="answerSection" style="width : 1000px;; text-align : left;">
-<div id="qa1" style="font-size : 14px;"> 
+<div id="answerSection" style="width : 1000px; text-align : left;">
+<div id="qa1" style="font-size : 14px; color : #ffffff;"> 
     &nbsp;<img src="assets/images/founder.png" /><br/>
     <h1>Responsibilities:</h1>
    <ul style="list-style-image: url('assets/images/small_icon.png');">
@@ -78,7 +77,7 @@
    
 </div>
 
-<div id="qa2"> 
+<div id="qa2" style="font-size : 14px; color : #ffffff;"> 
 	&nbsp;<img src="assets/images/head_admin.png" /><br/>
     <h1>Responsibilities:</h1>
    <ul style="list-style-image: url('assets/images/small_icon.png');">
@@ -157,7 +156,7 @@
    </li>
    </ul>
 </div>
-<div id="qa3"> 
+<div id="qa3" style="font-size : 14px; color : #ffffff;"> 
 	&nbsp;<img src="assets/images/judge_advo.png" /><br/>
     <h1>Responsibilities:</h1>
    <ul style="list-style-image: url('assets/images/small_icon.png');">
@@ -265,7 +264,7 @@
    
    
 </div>
-<div id="qa4">
+<div id="qa4" style="font-size : 14px; color : #ffffff;">
 	&nbsp;<img src="assets/images/op_foreman.png" /><br/>
     <h1>Responsibilities:</h1>
    <ul style="list-style-image: url('assets/images/small_icon.png');">
@@ -450,7 +449,7 @@
    </li>
    </ul>
 </div>
-<div id="qa5"> 
+<div id="qa5" style="font-size : 14px; color : #ffffff;"> 
 	&nbsp;<img src="assets/images/game_leader.png" /><br/>
     <h1>Responsibilities:</h1>
    <ul style="list-style-image: url('assets/images/small_icon.png');">
