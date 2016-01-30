@@ -1,5 +1,5 @@
 <div style="height: 100px;"></div>
-<div style="position: relative; top: 10px;"><center><img src="images/aboutus.png" /></center></div>
+<div style="position: relative; top: 10px;"><center><img src="assets/images/aboutus.png" /></center></div>
 <div id="wrap_about">
 <h1>Exiled Order History</h1><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exiled Order was established in October 2014, and was known as an ArmA 3 community. We were known as a strict Mil-Sim unit, but quickly realized we wanted to create something

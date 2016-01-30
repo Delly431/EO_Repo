@@ -1,33 +1,33 @@
 <div style="height: 100px;"></div>
 <center>
-<img src="images/rank_banner.png" /><br/>
-<a onClick="return toggleMe('qa1')" href="javascript:void(0)"><img src="images/lead_bar.jpg" /></a>
-<a onClick="return toggleMe('qa2')" href="javascript:void(0)"><img src="images/admin_bar.jpg" /></a>
-<a onClick="return toggleMe('qa3')" href="javascript:void(0)"><img src="images/legal_bar.jpg" /></a>
-<a onClick="return toggleMe('qa4')" href="javascript:void(0)"><img src="images/log_bar.jpg" /></a>
-<a onClick="return toggleMe('qa5')" href="javascript:void(0)"><img src="images/game_bar.jpg" /></a>
+<img src="assets/images/rank_banner.png" /><br/>
+<a onClick="return toggleMe('qa1')" href="javascript:void(0)"><img src="assets/images/lead_bar.jpg" /></a>
+<a onClick="return toggleMe('qa2')" href="javascript:void(0)"><img src="assets/images/admin_bar.jpg" /></a>
+<a onClick="return toggleMe('qa3')" href="javascript:void(0)"><img src="assets/images/legal_bar.jpg" /></a>
+<a onClick="return toggleMe('qa4')" href="javascript:void(0)"><img src="assets/images/log_bar.jpg" /></a>
+<a onClick="return toggleMe('qa5')" href="javascript:void(0)"><img src="assets/images/game_bar.jpg" /></a>
 </center>
 <br/><br/>
 <center>
 <div id="answerSection" style="width : 1000px;; text-align : left;">
 <div id="qa1" style="font-size : 14px;"> 
-    &nbsp;<img src="images/founder.png" /><br/>
+    &nbsp;<img src="assets/images/founder.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>Unfathomable</li>
    </ul>
    <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>Only given out to three (3) of the original leaders/founders of Exiled Order, this rank is unfathomable.</li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>Level 10</li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/leader.png" /><br/>
+   &nbsp;<img src="assets/images/leader.png" /><br/>
    <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Responsible for the creation, direction and execution of the community's vision, mission, and values through establishing the community's key priorities to ensure all administrative and 
    targeted improvements work toward furthering Exiled Order’s long term goals.
@@ -52,7 +52,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Requires a total of three (3) years in Exiled Order.
    </li>
@@ -70,7 +70,7 @@
    </li>   
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 9
    </li>
@@ -79,9 +79,9 @@
 </div>
 
 <div id="qa2"> 
-	&nbsp;<img src="images/head_admin.png" /><br/>
+	&nbsp;<img src="assets/images/head_admin.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Provides assistance in maintaining the direction of the community’s vision, mission, and values. Also ensures that all departments are stable and that future aspects are provided with the required resources needed 
    to ensure growth and stability.
@@ -97,7 +97,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Has been in the community for at least two year(s) to be nominated for the position.
    </li>
@@ -112,15 +112,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 8
    </li>
    </ul> 
    <hr size="1px;" color="#ba9c22"><br/>
-    &nbsp;<img src="images/admin.png" /><br/>
+    &nbsp;<img src="assets/images/admin.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Provides assistance in maintaining the direction of the community’s vision, mission, and values. Also ensures that all departments are stable and that future aspects are provided with the required resources needed 
    to ensure growth and stability.
@@ -136,7 +136,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Has been in the community for at least one year(s) and 10 months to be nominated for the position.
    </li>
@@ -151,16 +151,16 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 8
    </li>
    </ul>
 </div>
 <div id="qa3"> 
-	&nbsp;<img src="images/judge_advo.png" /><br/>
+	&nbsp;<img src="assets/images/judge_advo.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Oversees the department and encourages them to enforce the rules, regulations and policies.
    </li>
@@ -172,7 +172,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be able to successfully lead a Gaming Section and/or Department.
    </li>
@@ -187,15 +187,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 7
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/marshal.png" /><br/>
+   &nbsp;<img src="assets/images/marshal.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Ensures that no rules, regulations and policies are being broken, Marshals are the “Police Chiefs/Moderators” of the community.
    </li>
@@ -207,7 +207,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be dedicated to all aspects and membership of Exiled Order.
    </li>
@@ -222,15 +222,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/mil_police.png" /><br/>
+   &nbsp;<img src="assets/images/mil_police.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Ensures that no rules, regulations and policies are being broken, MP’s are the “Police/Moderators” of the community.
    </li>
@@ -239,7 +239,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be dedicated to all aspects and membership of Exiled Order.
    </li>
@@ -257,7 +257,7 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
@@ -266,9 +266,9 @@
    
 </div>
 <div id="qa4">
-	&nbsp;<img src="images/op_foreman.png" /><br/>
+	&nbsp;<img src="assets/images/op_foreman.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Oversees the structure, direction, and sustained progress of the department.
    </li>
@@ -283,7 +283,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be able to successfully lead a Gaming Section and/or Department.
    </li>
@@ -298,15 +298,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 7
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/engineer.png" /><br/>
+   &nbsp;<img src="assets/images/engineer.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Responsible for carrying out detailed assessments of games, designs and all other potential or proposed developments.
    </li>
@@ -327,7 +327,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be dedicated to all aspects and membership of Exiled Order.
    </li>
@@ -342,15 +342,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/architect.png" /><br/>
+   &nbsp;<img src="assets/images/architect.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Responsible for carrying out detailed assessments of games, designs and all other potential or proposed developments.
    </li>
@@ -368,7 +368,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be dedicated to all aspects and membership of Exiled Order.
    </li>
@@ -380,15 +380,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-    &nbsp;<img src="images/publisher.png" /><br/>
+    &nbsp;<img src="assets/images/publisher.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Maintains the community YouTube and Twitch.tv channels.
    </li>
@@ -403,7 +403,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must maintain a clean disciplinary record.
    </li>
@@ -415,15 +415,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-    &nbsp;<img src="images/Secretary.png" /><br/>
+    &nbsp;<img src="assets/images/Secretary.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Processes all applications for membership within the community.
    </li>
@@ -435,7 +435,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must maintain a clean disciplinary record.
    </li>
@@ -444,16 +444,16 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
    </ul>
 </div>
 <div id="qa5"> 
-	&nbsp;<img src="images/game_leader.png" /><br/>
+	&nbsp;<img src="assets/images/game_leader.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Provides assistance in maintaining the direction of the community’s vision, mission, and values. Also ensures that all departments are stable and that future aspects are provided with the required resources needed 
    to ensure growth and stability.
@@ -469,7 +469,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be dedicated to all aspects and membership of Exiled Order and be able to successfully lead a Gaming Section.
    </li>
@@ -484,15 +484,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 7
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/game_co_leader.png" /><br/>
+   &nbsp;<img src="assets/images/game_co_leader.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Ensures and promotes methods of growth and stability within their designated gaming section.
    </li>
@@ -513,7 +513,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must be dedicated to all aspects and membership of Exiled Order.
    </li>
@@ -528,15 +528,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 6
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-    &nbsp;<img src="images/sen_member_2.png" /><br/>
+    &nbsp;<img src="assets/images/sen_member_2.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Ensures and promotes methods of growth and stability within their designated gaming section.
    </li>
@@ -554,7 +554,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must continue to remain active on forums, game servers, and voice servers.
    </li>
@@ -572,15 +572,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 5
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/sen_member_1.png" /><br/>
+   &nbsp;<img src="assets/images/sen_member_1.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Provide input and feedback on discussions that impact the direction of the game section that they are apart of.
    </li>
@@ -598,7 +598,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must continue to remain active on forums, game servers, and voice servers.
    </li>
@@ -616,15 +616,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 5
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/mem_2_grade.png" /><br/>
+   &nbsp;<img src="assets/images/mem_2_grade.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Actively recruits new prospects on any of our public gaming servers.
    </li>
@@ -645,7 +645,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must continue to remain active on forums, game servers, and voice servers.
    </li>
@@ -663,15 +663,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 4
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/mem_1_grade.png" /><br/>
+   &nbsp;<img src="assets/images/mem_1_grade.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Actively recruits new prospects on any of our public gaming servers.
    </li>
@@ -686,7 +686,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must remain active on forums, game servers, and voice servers.
    </li>
@@ -701,15 +701,15 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 4
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-    &nbsp;<img src="images/j_member.png" /><br/>
+    &nbsp;<img src="assets/images/j_member.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Actively recruits new prospects on any of our public gaming servers.
    </li>
@@ -721,7 +721,7 @@
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Must have maintained the key qualities as noted above throughout their progression to becoming a Junior Member.
    </li>
@@ -736,21 +736,21 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 3
    </li>
    </ul>
    <hr size="1px;" color="#ba9c22"><br/>
-   &nbsp;<img src="images/prospect.png" /><br/>
+   &nbsp;<img src="assets/images/prospect.png" /><br/>
     <h1>Responsibilities:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Non-Applicable
    </li>
    </ul>
     <h1>Requirements:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Complete the Application Process of Exiled Order.
    </li>
@@ -762,7 +762,7 @@
    </li>
    </ul>
    <h1>Security Clearance:</h1>
-   <ul style="list-style-image: url('images/small_icon.png');">
+   <ul style="list-style-image: url('assets/images/small_icon.png');">
    <li>
    Level: 3
    </li>
@@ -770,6 +770,6 @@
    
    
 </div>
-<center><img src="images/structure.png" /></center>
+<center><img src="assets/images/structure.png" /></center>
 </div>
 
