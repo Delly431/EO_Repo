@@ -441,6 +441,7 @@ Desktop Nav
   top: 0;
   left: 0;
   width: 100%;
+  border-bottom: 1px solid #4c410f;
   padding: 0 30px;
   z-index: 999; }
   .desktop-nav-wrapper .desktop-nav {
