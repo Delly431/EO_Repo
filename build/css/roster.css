@@ -6,7 +6,7 @@ a.roster:link {color:#ffe894; text-decoration: none;}
 a.roster:visited {color:#ffe894;text-decoration: none;}
 a.roster:hover {color:#ffcc00;text-decoration: none;}
 #roster_img {
-	background-image : url('images/roster_bg.png');
+	background-image : url('assets/images/roster_bg.png');
 	height : 1113px;
 	width : 100%;
 	font-color : #ffffff;
@@ -16,7 +16,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	width : 1244px;
 }
 .roster_wrap {
-	background-image : url('images/nav_bg.png');
+	background-image : url('assets/images/nav_bg.png');
 	height: 37px;
 	width : 1244px;
 	border: 1px solid #b49c00;
