@@ -84,8 +84,12 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	color : #ec006f;
 	font-weight : bold;
 }
-.mloa {
+.loa {
 	color : #8b00ec;
+	font-weight : bold	
+}
+.warning {
+	color : #ff8533;
 	font-weight : bold	
 }
 .roster_text {

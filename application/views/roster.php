@@ -4,7 +4,7 @@
 	<center><h1>LEADERS & FOUNDERS</h1></center>
 <?php
 $servername = "localhost";
-$username = "";
+$username = "eosquad";
 $password = "";
 $dbname = "eo_roster";
 
@@ -19,10 +19,12 @@ $sql = "SELECT * FROM eo_roster.roster_leaders";
 $result = $conn->query($sql);
 $loopResult = '';
 $location='';
+$nspan='';
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 		$location=strtolower ($row["location"] );
+		$nspan=strtolower ($row["activity"] );
         $loopResult .= ' 
             <div class="roster_wrap">
 			<div class="roster_icon"><div class="roster_text"><img src="assets/images/small_icon.png" alt="icon"/></div></div>
@@ -37,7 +39,7 @@ if ($result->num_rows > 0) {
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
-			<div class="roster_status"><div class="roster_text"><span class="active">'.$row["activity"].'</span></div></div>
+			<div class="roster_status"><div class="roster_text"><span class="'.$nspan.'">'.$row["activity"].'</span></div></div>
 			</div> 
         ';
 		echo $loopResult;
@@ -65,6 +67,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 		$location=strtolower ($row["location"] );
+		$nspan=strtolower ($row["activity"] );
         $loopResult .= ' 
             <div class="roster_wrap">
 			<div class="roster_icon"><div class="roster_text"><img src="assets/images/small_icon.png" alt="icon"/></div></div>
@@ -79,7 +82,7 @@ if ($result->num_rows > 0) {
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
-			<div class="roster_status"><div class="roster_text"><span class="active">'.$row["activity"].'</span></div></div>
+			<div class="roster_status"><div class="roster_text"><span class="'.$nspan.'">'.$row["activity"].'</span></div></div>
 			</div> 
         ';
 		echo $loopResult;
@@ -108,6 +111,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 		$location=strtolower ($row["location"] );
+		$nspan=strtolower ($row["activity"] );
         $loopResult .= ' 
             <div class="roster_wrap">
 			<div class="roster_icon"><div class="roster_text"><img src="assets/images/small_icon.png" alt="icon"/></div></div>
@@ -123,7 +127,7 @@ if ($result->num_rows > 0) {
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
-			<div class="roster_status"><div class="roster_text"><span class="active">'.$row["activity"].'</span></div></div>
+			<div class="roster_status"><div class="roster_text"><span class="'.$nspan.'">'.$row["activity"].'</span></div></div>
 			</div> 
         ';
 		echo $loopResult;
@@ -151,6 +155,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 		$location=strtolower ($row["location"] );
+		$nspan=strtolower ($row["activity"] );
         $loopResult .= ' 
             <div class="roster_wrap">
 			<div class="roster_icon"><div class="roster_text"><img src="assets/images/small_icon.png" alt="icon"/></div></div>
@@ -163,7 +168,7 @@ if ($result->num_rows > 0) {
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
-			<div class="roster_status"><div class="roster_text"><span class="active">'.$row["activity"].'</span></div></div>
+			<div class="roster_status"><div class="roster_text"><span class="'.$nspan.'">'.$row["activity"].'</span></div></div>
 			</div> 
         ';
 		echo $loopResult;
@@ -191,6 +196,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 		$location=strtolower ($row["location"] );
+		$nspan=strtolower ($row["activity"] );
         $loopResult .= ' 
             <div class="roster_wrap">
 			<div class="roster_icon"><div class="roster_text"><img src="assets/images/small_icon.png" alt="icon"/></div></div>
@@ -203,7 +209,7 @@ if ($result->num_rows > 0) {
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
-			<div class="roster_status"><div class="roster_text"><span class="active">'.$row["activity"].'</span></div></div>
+			<div class="roster_status"><div class="roster_text"><span class="'.$nspan.'">'.$row["activity"].'</span></div></div>
 			</div> 
         ';
 		echo $loopResult;
@@ -213,7 +219,7 @@ if ($result->num_rows > 0) {
     echo "Data missing";
 }
 
-$sql = "SELECT count(user_id) as count FROM eo_roster.users";
+$sql = "SELECT count(user_id) as count FROM users_forums";
 $result = $conn->query($sql);
 $loopResult2 = '';
 if ($result->num_rows > 0) {
