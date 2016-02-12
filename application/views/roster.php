@@ -33,9 +33,6 @@ if ($result->num_rows > 0) {
 			<div class="roster_flag"><div class="roster_text_flag"><img src="assets/images/flag/'.$location.'.png" alt="icon"/></div></div>
 			<div class="roster_game">
             <div class="roster_text">
-            <img src="assets/images/game_squad.png" alt="game" />
-            <img src="assets/images/game_wow.png" alt="game" />
-            <img src="assets/images/game_cs.png" alt="game" />
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
@@ -76,9 +73,6 @@ if ($result->num_rows > 0) {
 			<div class="roster_flag"><div class="roster_text_flag"><img src="assets/images/flag/'.$location.'.png" alt="icon"/></div></div>
 			<div class="roster_game">
             <div class="roster_text">
-            <img src="assets/images/game_squad.png" alt="game" />
-            <img src="assets/images/game_wow.png" alt="game" />
-            <img src="assets/images/game_cs.png" alt="game" />
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
@@ -120,10 +114,6 @@ if ($result->num_rows > 0) {
 			<div class="roster_flag"><div class="roster_text_flag"><img src="assets/images/flag/'.$location.'.png" alt="icon"/></div></div>
 			<div class="roster_game">
             <div class="roster_text">
-            <img src="assets/images/game_squad.png" alt="game" />
-            <img src="assets/images/game_wow.png" alt="game" />
-            <img src="assets/images/game_dota.png" alt="game" />
-            <img src="assets/images/game_gw2.png" alt="game" />
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
@@ -164,7 +154,6 @@ if ($result->num_rows > 0) {
 			<div class="roster_flag"><div class="roster_text_flag"><img src="assets/images/flag/'.$location.'.png" alt="icon"/></div></div>
 			<div class="roster_game">
             <div class="roster_text">
-            <img src="assets/images/game_squad.png" alt="game" />
             </div>
 			</div>
 			<div class="roster_date"><div class="roster_text">'.$row["join_date"].'</div></div>
