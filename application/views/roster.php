@@ -3,11 +3,7 @@
 <div id="roster_disp">
 	<center><h1>LEADERS & FOUNDERS</h1></center>
 <?php
-$servername = "localhost";
-$username = "eosquad";
-$password = "";
-$dbname = "eo_roster";
-
+include "database.php";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
