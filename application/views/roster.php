@@ -2,6 +2,19 @@
 <img src="assets/images/roster_banner.png" alt="roster"/>
 <div id="roster_disp">
 	<center><h1>LEADERS & FOUNDERS</h1></center>
+	
+	<div class="roster_wrap">
+		<div class="roster_icon"><div class="roster_text"></div></div>
+		<div class="roster_name"><div class="roster_text">NAME</div></div>
+		<div class="roster_rank"><div class="roster_text">RANK</div></div>
+		<div class="roster_flag"><div class="roster_text">LOCATION</div></div>
+		<div class="roster_game">
+        <div class="roster_text">
+        </div>
+		</div>
+		<div class="roster_date"><div class="roster_text">JOIN DATE</div></div>
+		<div class="roster_status"><div class="roster_text"><span class="'.$nspan.'">ACTIVITY</span></div></div>
+	</div>
 <?php
 include "database.php";
 // Create connection
