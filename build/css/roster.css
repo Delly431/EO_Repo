@@ -98,6 +98,30 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 .roster_text_flag {
 	padding : 10px;
 }
+.newsfeed {
+	background-image : url('assets/images/nav_bg.png');
+	height: 37px;
+	width : 330px;
+	position: fixed;
+    top: 6em;
+    right: 7em;
+}
+.newsfeed_box {
+    background-image : url('assets/images/nav_bg.png');
+	height: 37px;
+	width : 330px;
+	border: 1px solid #b49c00;
+
+}
+.newsfeed_text {
+	height: 37px;
+	float: center;
+	width: 330px;
+	font-size: 20px;
+	color : #ffffff; 
+	text-align: center;
+	
+}
 #rank_img {
 	background-color: #f8c200;
 	height : 1113px;
