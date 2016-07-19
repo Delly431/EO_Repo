@@ -41,9 +41,7 @@
       <div class="mobile-menu-opener-wrapper" data-role="mobile_menu_opener">
         <div class="mobile-menu-opener"></div>
       </div>
-    </div>
-    <ul class="desktop-nav">
-      <li class="logo icn"></li>
-      <li><a href="/forums">FORUMS</a></li>
+	  <li><a href="/forums">FORUMS</a></li>
+    </div>      
     </ul>
   </nav>

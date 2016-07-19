@@ -1,7 +1,7 @@
 var player;
-var start_time = 30; // Seconds
-var end_time = 62; // Seconds
-var videoId = '5ysn0bZAQMU';
+var start_time = 0; // Seconds
+var end_time = 94; // Seconds
+var videoId = 'Zg0dm54rW0Y';
 
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('ytplayer', {
