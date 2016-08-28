@@ -17,6 +17,8 @@
 	</div>
 <?php
 include "database.php";
+iconv_set_encoding('internal_encoding', 'UTF-8');
+mb_internal_encoding('UTF-8');
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection

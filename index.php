@@ -34,6 +34,10 @@
       case "laws": 
       include ('application/views/laws.php'); 
       break;
+	  
+	  case "wow": 
+      include ('application/views/wow.php'); 
+      break;
 
       case "about": 
       include ('application/views/about.php'); 

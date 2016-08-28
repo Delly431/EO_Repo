@@ -32,6 +32,7 @@
       <li><a href="index.php?id=laws">LAWS</a></li>
       <li><a href="index.php?id=servers">SERVERS</a></li>
       <li><a href="http://exiledorder.com/forums/index.php?/forms/2-application-form/">JOIN&nbsp;US</a></li>
+	  <li><a href="index.php?id=wow">WoW</a></li>
       <li><a href="index.php?id=about">ABOUT [EO]</a></li>
     </ul>
   </nav>

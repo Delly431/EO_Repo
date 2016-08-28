@@ -113,6 +113,8 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	border: 1px solid #b49c00;
 
 }
+.newsfeed_box:hover {
+    background-color: #bd9400; }
 .newsfeed_text {
 	height: 37px;
 	float: center;
@@ -122,15 +124,133 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	text-align: center;
 	
 }
+.wow_roster_wrap {
+	background-image : url('assets/images/nav_bg.png');
+	height: 37px;
+	width : 600px;
+	border: 1px solid #b49c00;
+}
+.wow_roster_name {
+	height: 37px;
+	float: left;
+	text-align : left;
+	width: 140px;
+	color : #c0a131;
+}	
+.wow_roster_rank {
+	height: 37px;
+	float: left;
+	width: 150px;
+	color : #c0a131;
+	text-align: center;	
+}
+.wow_roster_char {
+	height: 37px;
+	float: left;
+	width: 140px;
+	color : #c0a131;
+	text-align: center;
+}
+.wow_roster_char:hover {color: #ffe894;}
+.wow_roster_lvl {
+	height: 37px;
+	float: left;
+	width: 120px;
+	color : #c0a131;
+	text-align: center;
+}
+
+.wow_prog {
+    background-image : url('assets/images/nav_bg.png');
+	height: 445px;
+	width : 445px;
+	border-radius: 25px;
+	border: 1px solid #b49c00;
+}
+
+.wow_prof {
+    background-image : url('assets/images/nav_bg.png');
+	height: 450px;
+	width : 445px;
+	border-radius: 25px;
+	border: 1px solid #b49c00;
+
+}
+
+.wow_prev {
+    background-image : url('assets/images/nav_bg.png');
+	height: 500px;
+	width : 680px;
+	border-radius: 25px;
+	border: 1px solid #b49c00;
+
+}
+
+.loader {
+  position: absolute;
+  left: 14%;
+  top: 12%;
+  z-index: 1;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #b49c00;
+  border-bottom: 16px solid #b49c00;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 #rank_img {
 	background-color: #f8c200;
 	height : 1113px;
 	width : 100%;
 	font-color : #ffffff;
 }
+
 #rank_text {
 	position : relative;
 	text-align : left;
 	top : 100px;
 	width: 100%;
+}
+
+#wow_container {
+    width:100%;
+    text-align:center;
+	height : 930px;
+}
+
+#wow_left {
+    float:left;
+	padding-left: 20px;
+    width:638px;
+    height: 920px;    
+	overflow-y:auto;
+}
+
+#wow_center {
+    display: inline-block;
+    margin:0 auto;
+    width:680px;
+    height: 920px;
+
+}
+
+#wow_right {
+    float:right;
+	padding-right: 20px;
+    width:446px;
+    height: 920px;
+
 }

@@ -623,7 +623,7 @@ Actively recruits new prospects on any of our public gaming servers or other gam
    </ul>
    
 </div>
-<center><img src="assets/images/wip.png" /></center>
+<center><img src="assets/images/structure.png" /></center>
 </div>
 <script language="JavaScript" type="text/javascript">
 /*<![CDATA[*/
