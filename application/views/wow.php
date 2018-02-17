@@ -68,15 +68,15 @@ th{
 		<div style="background: url('assets/images/wow/NH Prog.png'),url('assets/images/wow/EN Prog.png') ; background-size: 400px 195px; padding-left:35px; background-origin: content-box; background-repeat: no-repeat,repeat-y;  height: 390px; width: 400px; " >
 			<div style="height: 200px;"><br>
 				<div style="color:#ffe894"><b>The Night Hold</b></div>	<br>
-				<div style="color:#009933"><b>Normal 0/7</b></div><br>	
-				<div style="color:#ff9900"><b>Heroic 0/7</b></div><br>	
-				<div style="color:#0099cc"><b>Mythic 0/7</b></div>	
+				<div style="color:#009933"><b>Normal 0/10</b></div><br>	
+				<div style="color:#ff9900"><b>Heroic 0/10</b></div><br>	
+				<div style="color:#0099cc"><b>Mythic 0/10</b></div>	
 			</div>
 			<div style="height: 200px;"><br>
 				<div style="color:#ffe894"><b>The Emerald Nightmare</b></div><br>
-				<div style="color:#009933"><b>Normal 0/10</b></div><br>
-				<div style="color:#ff9900"><b>Heroic 0/10</b></div><br>
-				<div style="color:#0099cc"><b>Mythic 0/10</b></div>				
+				<div style="color:#009933"><b>Normal 7/7</b></div><br>
+				<div style="color:#ff9900"><b>Heroic 7/7</b></div><br>
+				<div style="color:#0099cc"><b>Mythic 0/7</b></div>				
 			</div>
 		</div>
 		</div>

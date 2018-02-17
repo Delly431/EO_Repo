@@ -1,7 +1,7 @@
 var player;
 var start_time = 0; // Seconds
-var end_time = 94; // Seconds
-var videoId = 'Zg0dm54rW0Y';
+var end_time = 50; // Seconds
+var videoId = 'ozShTZv0zU0';
 
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('ytplayer', {
@@ -22,7 +22,7 @@ function onYouTubeIframeAPIReady() {
 
 function onPlayerReady(event) {
   player.seekTo(start_time);
-  player.mute();
+  player.setVolume(50);
 }
  
 function onPlayerStateChange(event) {

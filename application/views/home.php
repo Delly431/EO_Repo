@@ -19,9 +19,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} 
+}
 
-$sql = "SELECT * FROM eosquad_forums.forums_topics where forum_id = 6 order by start_date desc limit 5";
+$sql = "SELECT * FROM eo_forums.forums_topics where forum_id = 2 order by start_date desc limit 5";
 $result = $conn->query($sql);
 $loopResult = '';
 $location='';

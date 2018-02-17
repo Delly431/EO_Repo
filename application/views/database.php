@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "eosquad";
+$username = "web_readonly";
 $password = "";
 $dbname = "eo_roster";
 ?>

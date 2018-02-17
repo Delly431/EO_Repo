@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="build/css/about.css">
   <link rel="stylesheet" href="build/css/laws.css">
   
-  <title>Blaine County Role Play</title>
+  <title>ExiledOrder.com</title>
   <link rel="shortcut icon" href="http://www.exiledorder.com/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -25,12 +25,14 @@
   <nav class="desktop-nav-wrapper">
     <ul class="desktop-nav">
       <li class="logo icn"></li>
-      <li><font face="verdana"><a href="index.php?id=home">HOME</a></font></li>
-      <li><font face="verdana"><a href="http://exiledorder.com/forums/index.php?/register/">REGISTER</a></font></li>
-      <li><font face="verdana"><a href="https://docs.google.com/spreadsheets/d/1uv8SAe4FfrxE1C_8hb56FsAcDAp7I9zbiQ3ECajCrpc/edit?usp=sharing">ROSTER</a></font></li>
-      <li><font face="verdana"><a href="/forums">FORUMS</a></font></li>
-      <li><font face="verdana"><a href="forums/index.php?/topic/5-read-before-applying/">JOIN&nbsp;US</a></font></li>
-      <li><font face="verdana"><a href="index.php?id=servers">SERVER INFO</a></font></li>
-      <li><font face="verdana"><a href="index.php?id=about">ABOUT US</a></font></li>
-	  </ul>
+      <li><a href="index.php?id=home">HOMEPAGE</a></li>
+      <li><a href="index.php?id=roster">ROSTER</a></li>
+  	  <li><a href="index.php?id=wow">WoW</a></li>
+      <li><a href="/forums">FORUMS</a></li>
+      <li><a href="index.php?id=rank">RANKS</a></li>
+      <li><a href="index.php?id=laws">LAWS</a></li>
+      <li><a href="index.php?id=servers">SERVERS</a></li>
+      <li><a href="http://exiledorder.com/forums/index.php?/forms/2-application-form/">JOIN&nbsp;US</a></li>
+      <li><a href="index.php?id=about">ABOUT [EO]</a></li>
+    </ul>
   </nav>

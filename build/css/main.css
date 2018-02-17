@@ -7,14 +7,14 @@
 /* CSS Document */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 html {
-  font-family: sans-serif;
+  font-family: "Verdana";
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: 'Roboto Condensed', "Verdana"; }
 
 *, *:before, *:after {
   box-sizing: inherit; }

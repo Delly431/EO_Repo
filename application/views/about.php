@@ -1,5 +1,5 @@
 <center>
-<div style="position: relative; top: 10px;"><center><img src="assets/images/aboutus.png" /></center></div>
+<div style="position: relative; top: 10px;"><center><img src="assets/images/2-EOmed.png" /></center></div>
 <div id="wrap_about">
 <h1>Exiled Order History</h1><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;October 2014 to February 2015:

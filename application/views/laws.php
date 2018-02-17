@@ -1,5 +1,11 @@
 <center>
 <div id="wrap_law">
+<style>
+body {
+    background-image: url("assets/images/temp-bg.jpg");
+    background-repeat: repeat;
+}
+</style>
 <center><img src="assets/images/law.png" /></center>
 <h1>Cheating</h1>
 Neither associate nor member shall use/promote hacks, exploits, bots, or illegal third party programs. Any activity that violates a game's EULA*/ToS**/CoC***/NDA**** is prohibited. Any bans made by third party anti-cheat organizations (such as PB/Vac/GUID bans for hacking) will result in a permanent ban that can only be overturned by the third-party.<br /><br />
