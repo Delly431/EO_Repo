@@ -27,14 +27,14 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	text-align : left;
 	width: 300px;
 	color : #c0a131;
-	
+
 }
 .roster_icon {
 	height: 37px;
 	float: left;
 	width: 35px;
 	color : #c0a131;
-	
+
 }
 .roster_rank {
 	height: 37px;
@@ -42,7 +42,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	width: 200px;
 	color : #c0a131;
 	text-align: center;
-	
+
 }
 .roster_game {
 	height: 37px;
@@ -50,7 +50,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	width: 200px;
 	color : #c0a131;
 	text-align: center;
-	
+
 }
 .roster_flag {
 	height: 37px;
@@ -58,7 +58,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	width: 50px;
 	color : #c0a131;
 	text-align: center;
-	
+
 }
 .roster_date {
 	height: 37px;
@@ -66,7 +66,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	width: 100px;
 	color : #c0a131;
 	text-align: center;
-	
+
 }
 .roster_status {
 	height: 37px;
@@ -74,7 +74,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	width: 100px;
 	color : #c0a131;
 	text-align: center;
-	
+
 }
 .active {
 	color : #00f80c;
@@ -86,11 +86,11 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 }
 .loa {
 	color : #8b00ec;
-	font-weight : bold	
+	font-weight : bold
 }
 .warning {
 	color : #ff8533;
-	font-weight : bold	
+	font-weight : bold
 }
 .roster_text {
 	padding : 8px;
@@ -114,15 +114,15 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 
 }
 .newsfeed_box:hover {
-    background-color: #bd9400; }
+    background-color: #8c6f08; }
 .newsfeed_text {
 	height: 37px;
 	float: center;
 	width: 330px;
 	font-size: 15px;
-	color : #ffffff; 
+	color : #ffffff;
 	text-align: center;
-	
+
 }
 .wow_roster_wrap {
 	background-image : url('assets/images/nav_bg.png');
@@ -136,13 +136,13 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
 	text-align : left;
 	width: 140px;
 	color : #c0a131;
-}	
+}
 .wow_roster_rank {
 	height: 37px;
 	float: left;
 	width: 150px;
 	color : #c0a131;
-	text-align: center;	
+	text-align: center;
 }
 .wow_roster_char {
 	height: 37px;
@@ -235,7 +235,7 @@ a.roster:hover {color:#ffcc00;text-decoration: none;}
     float:left;
 	padding-left: 20px;
     width:638px;
-    height: 920px;    
+    height: 920px;
 	overflow-y:auto;
 }
 

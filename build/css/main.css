@@ -7,7 +7,7 @@
 /* CSS Document */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 html {
-  font-family: "Verdana";
+    font-family: "Verdana";
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -420,7 +420,7 @@ body {
 @media screen and (max-width: 870px) {
   h1 {
     font-size: 28px; } }
-/*================= 
+/*=================
 Desktop Nav
 ==================*/
 .desktop-nav-wrapper {
@@ -507,9 +507,9 @@ Desktop Nav
         transition: background-color 0.3s ease;
         background-color: transparent; }
         .desktop-nav-wrapper .desktop-nav li a:hover {
-          background-color: #000000; }
+          background-color: #8c6f08; }
 
-/*================= 
+/*=================
 Mobile Nav
 ==================*/
 .isMobile .mobile-nav {
@@ -693,7 +693,7 @@ Mobile Nav
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease; }
   .home .register-button:hover {
-    background-color: #bd9400; }
+    background-color: #8c6f08; }
 .home .content {
   margin: 0 auto;
   height: 100%;
@@ -806,5 +806,3 @@ footer {
     margin: 0 auto;
     padding: 20px 30px;
     color: #ffffff; }
-	
-
