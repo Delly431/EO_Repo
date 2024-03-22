@@ -55,13 +55,13 @@ ExpiresByType application/javascript "access plus 1 year"
 </IfModule>
 
 <IfModule mod_rewrite.c>
-Options -MultiViews
-RewriteEngine On
-RewriteBase /forums/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule \.(js|css|jpeg|jpg|gif|png|ico|map)(\?|$) /forums/404error.php [L,NC]
+	Options -MultiViews
+	RewriteEngine On
+	RewriteBase /forums/
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule \.(js|css|jpeg|jpg|gif|png|ico|map|webp)(\?|$) /forums/404error.php [L,NC]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /forums/index.php [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /forums/index.php [L]
 </IfModule>

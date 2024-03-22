@@ -46,6 +46,10 @@
       case "about":
       include ('application/views/about.php');
       break;
+	  
+	  case "ranktest":
+      include ('application/views/ranktest.php');
+      break;
     }
   include("application/views/footer.php");
 ?>
